@@ -1,0 +1,30 @@
+body {
+  margin:0;
+  font-family: system-ui, sans-serif;
+  background:#0b0f17;
+  color:white;
+}
+
+a { color:#8ab4ff; }
+
+.container {
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+.card {
+  background:#121a2a;
+  border-radius:12px;
+  padding:20px;
+  margin-top:20px;
+}
+
+img {
+  max-width:100%;
+}
+
+/* prevents text overflow */
+p, h1, h2, h3, a {
+  overflow-wrap:anywhere;
+}
