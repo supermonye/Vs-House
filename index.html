@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Soup’s VS Blog</title>
+  <meta name="description" content="A clean, fast VS blog." />
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/">Soup’s VS Blog</a>
+      <nav class="nav">
+        <a href="#/">Home</a>
+        <a href="#/about">About</a>
+        <a href="/admin/" class="pill">Write</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="view"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Soup. Built for clean VS essays.</p>
+    </div>
+  </footer>
+
+  <!-- Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>
